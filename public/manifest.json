@@ -1,0 +1,21 @@
+{
+  "short_name": "HubToDo",
+  "name": "HubTodo",
+  "permissions": ["contextMenus", "storage", "tabs"],
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "HubToDo",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["/static/js/background_script.js"]
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "omnibox": { "keyword" : "todo" }
+}

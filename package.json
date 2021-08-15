@@ -1,0 +1,31 @@
+{
+  "name": "hub-to-do",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "3.0.2",
+    "@material-ui/styles": "3.0.0-alpha.10",
+    "array-move": "^4.0.0",
+    "chrome": "^0.1.0",
+    "customize-cra": "^1.0.0",
+    "react": "16.8.3",
+    "react-app-rewired": "^2.1.8",
+    "react-dom": "16.8.3",
+    "react-scripts": "2.1.8",
+    "react-smooth-dnd": "^0.11.1",
+    "react-transition-group": "4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-app-rewired build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
