@@ -26,7 +26,7 @@ const styles = {
   main: {
     width: '100%',
     maxWidth: '400px',
-    margin: '20px auto',
+    margin: '10px auto',
   },
   todo: {
     position: 'relative',
