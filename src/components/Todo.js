@@ -22,11 +22,11 @@ const styles = {
     opacity: '.5',
     display: 'flex',
     width: '100%',
+    wordBreak: 'break-all',
   },
   main: {
     width: '100%',
-    maxWidth: '400px',
-    margin: '10px auto',
+    margin: '5px',
   },
   todo: {
     position: 'relative',
@@ -37,6 +37,7 @@ const styles = {
   label: {
     display: 'flex',
     width: '100%',
+    wordWrap: 'break-word', 
   },
   divider: {
     position: 'absolute',
